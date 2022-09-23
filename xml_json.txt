@@ -1,0 +1,66 @@
+
+Introduction to XML:
+-----------------
+XML - Extensible Markup Lang.
+
+MarkUp Lang:
+Ex: HTML , XML , XHTML, SGML...
+
+<element></element>   --> element/tag
+
+<html></html>
+<table></table>
+<form></form>
+
+------------------------
+XML is used to store data and transfer data from one system to another system
+-> XML is platform independent and compatible with all O.S and Programming langs
+-> Used in Web pages.
+-> It help us to create custom tags/element , user define markup lang
+-> Semi Structure in nature
+XML-SCHEMA
+----------------------------------------------------------
+<Root-Element name="Employee">
+
+	<child-element name ="ename" type="string" order=1>
+	<child-element name ="salary" type="double" order=2>
+
+</Roo-Element>
+
+----------------------------------------------------------
+<Employee  eid="101">	
+	<ename>King</ename>
+	<salary>50000</salary>
+</Employee>
+
+==============================
+<Employee >
+	
+	<mno>9988776655</mno>
+	<mno>8877554433</mno>
+
+</Employee>
+
+
+XML Parser:
+It parse the XML Document
+It can find out syntax and symentic errors in XML Documents.
+
+
+
+JSON:
+------
+JavaScript Object Notation.
+
+employee:{
+	
+"eid":101,
+"ename":"javeed",
+"salary":80000
+
+
+}
+
+
+
+

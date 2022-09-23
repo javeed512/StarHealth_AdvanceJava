@@ -10,3 +10,6 @@ Task for 23/09/2022 Friday
 	-> SQL DDL , DML and functions
 	-> Java8 Features specially lambda exp and Stream API
 
+5. What is xml and usage?
+
+6. What is JSON and usage?
