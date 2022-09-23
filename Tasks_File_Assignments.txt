@@ -1,0 +1,12 @@
+
+Task for 23/09/2022 Friday
+---------------------------
+1.Create Another Project with Complete Layered Architecture using different bean/entity like Product,Train,Book,Passenger etc
+2.Learn Basics of HTML (HTML Forms)
+3.Find out what is Maven tool basics.
+4.Revise 
+	-> Layered ARchitecture
+	-> JDBC Crud operations using PreparedStatment
+	-> SQL DDL , DML and functions
+	-> Java8 Features specially lambda exp and Stream API
+
