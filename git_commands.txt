@@ -1,0 +1,24 @@
+
+To check git version
+-> git --version
+
+To make any folder as local repo
+-> git init
+
+Once we create GitHub account and GitHub Remote Repository , we can link/add remote repo to the local repo.
+-> 1. copy http link from remote repo
+https://github.com/javeed512/StarHealth_AdvanceJava.git
+-> Goto LocalRepo and use following
+-> git  remote add  origin https://github.com/javeed512/StarHealth_AdvanceJava.git
+
+Add Data/Files/Folder  to the local repository and commit it
+
+-> git add  . 
+-> git commit -m "some title message"
+-> git push origin master             // here origin is alias name to url and master is the new branch getting 							//created by github server
+
+How to download or copy project from github to local repo?
+
+-> Create a folder which act as localrepo 
+C:/> FolderName>  git init
+-> git clone https://github.com/javeed512/StarHealth_AdvanceJava.git
