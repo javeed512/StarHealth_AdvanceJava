@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<students>
+
+
+	<student sid="101">
+		<firstName>Raman</firstName>
+		<lastName>Kumar</lastName>
+		<marks>80</marks>
+	</student>
+	
+	<student sid="102">
+		<firstName>Javeed</firstName>
+		<lastName>Khan</lastName>
+		<marks>60</marks>
+	</student>
+	
+	<student sid="103">
+		<firstName>Anil</firstName>
+		<lastName>Reddy</lastName>
+		<marks>65</marks>
+	</student>
+
+
+</students>

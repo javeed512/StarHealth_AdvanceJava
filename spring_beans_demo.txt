@@ -1,0 +1,103 @@
+
+public class Employee { // POJO , BEAN
+	
+	private int eid;
+	private String ename;
+	private double salary;
+	
+	
+	public Employee() {
+		
+		
+		
+	}
+	
+	
+	public Employee(int eid, String ename, double salary) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.salary = salary;
+	}
+	public int getEid() {
+		return eid;
+	}
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	
+	
+
+}
+
+
+
+---------------------------------------
+
+
+
+class App{
+
+
+public static void main(){
+
+
+
+
+
+	Employee emp = new Employee();	 // option1	
+
+		emp.setEid(101);
+		emp.setEname("javeed");	
+		emp.setSalary(50000);
+
+	
+		Employee emp = new Employee(102,"anil",40000);	 // option2	
+	
+
+
+
+}
+
+
+
+
+}
+
+
+---------------------------------
+
+a1 = new Address();
+
+Bean Life cycle 
+
+1. create bean object
+Employee emp = new Employee();
+2. populate properties
+
+eid, ename, salary , address
+
+3. setBeanName() method
+	
+	setEid(101);
+	setEname("tom");
+	setSalary(5000);
+	setAddress(a1);
+	
+
+
+
+
+
