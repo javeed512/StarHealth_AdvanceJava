@@ -1,0 +1,8 @@
+Tasks for today:
+
+1. Create spring project with annotations (without application.xml file)
+Create some Bean classes like Product,Customer or Flight,Passenger etc.
+Create seperate packages for layers like service,repository,beans 
+Use @Configuration,@ComponentScan, @Component,@Service,@Repository,@Bean Annotations.
+2. Create Spring Project with Layered Architecture and migrate previous core-java jdbc project to Spring jdbc project using annotations.
+3.Revise HTML Basics and HTML Forms
