@@ -1,0 +1,53 @@
+
+Spring Framework:
+-----------------
+Spring Core
+
+Create Maven project
+pom.xml file
+
+WebServers
+EX: Tomcat , WebLogic , JBoss , GlassFish , PivotalServer
+
+XML Files 
+
+----------------------------------------------------
+
+Spring Boot
+Spring Boot Project Maven/Gradle and min Java8 version.
+Predefined List of Dependencies available in Spring boot.
+
+SpringBoot uses Embedded Webserver that is Tomcat server.
+SpringBoot uses Embedded Database known as H2 DB.
+
+SpringBoot does not support XML configuration
+SpringBoot supports  properties / yml files
+
+SpringBoot can support xml by adding xml parser dependency we can use xml input/output data
+SpringBoot can support JSP pages by adding jsp-jasper dependency.
+
+
+
+
+
+
+Spring Boot Applications can be created in 3 ways:
+---------------------------------------------------
+1. Spring starter option in STS IDE.
+2. Online Spring Initializer 
+3. Spring CLI- Command Line Interface (Testers)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
