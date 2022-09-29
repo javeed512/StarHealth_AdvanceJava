@@ -1,0 +1,79 @@
+Spring Annotations:
+====================
+@Configuration
+@ComponentScan
+
+@Bean
+@Component
+@Service
+@Repository
+@Autowired
+@Scope
+
+Web Applications:
+------------------
+@Controller
+@RequestMapping  ---> Http Methods - GET,POST,PUT,DELETE
+@ResponseBody
+@RequestBody
+@PathVariable
+
+===================
+@RestController
+@RequestMapping
+@GetMapping
+@PostMapping
+@PutMapping
+@DeleteMapping
+@RequestBody
+@PathVariable
+-----------------
+
+Entity / POJO Classes JPA Annotation:
+@Entity
+@Id
+@Table
+@Column
+
+
+
+
+
+
+
+
+SpringBoot:
+-----------
+@SpringBootApplication
+
+
+
+
+
+
+
+
+
+JSP:
+Java Server Pages 
+Writing Java Code inside HTML Pages gives us JSP.
+
+Spring Core 
+Scope
+1.singleton
+2.prototype
+3.session
+4.request
+5.application
+
+Scope variables in Spring web MVC:
+===================================
+HttpSession session;
+HttpServletRequest request;
+ServletContext application;
+
+setAttribute("k",value-obj); --> one place set data
+
+
+get data in another place ---> getAttribute("k");
+
