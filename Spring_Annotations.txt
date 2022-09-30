@@ -19,12 +19,15 @@ Web Applications:
 @PathVariable
 
 ===================
+REST API ANNOTATIONS
+
 @RestController
 @RequestMapping
-@GetMapping
-@PostMapping
+@GetMapping("/get") --> @RequestMapping(value="/get",method=RequestMethod.GET)
+@PostMapping("/add")
 @PutMapping
 @DeleteMapping
+
 @RequestBody
 @PathVariable
 -----------------
@@ -76,4 +79,8 @@ setAttribute("k",value-obj); --> one place set data
 
 
 get data in another place ---> getAttribute("k");
+
+
+
+
 

@@ -1,0 +1,127 @@
+===================
+REST API ANNOTATIONS
+
+@RestController
+@RequestMapping
+@GetMapping("/get") --> @RequestMapping(value="/get",method=RequestMethod.GET)
+@PostMapping("/add")
+@PutMapping
+@DeleteMapping
+
+@RequestBody
+@PathVariable
+-----------------
+
+Entity / POJO Classes JPA Annotation:
+@Entity
+@Id
+@Table
+@Column
+
+------------------------------------------
+Spring Boot 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ORM Tools:
+Object Relational Mapping Tools
+Ex: Hibernate , Toplink , Ibatis etc...
+
+Object Oriented world    |    Relational DBMS
+
+Class and Objects        |     Tables  , Records
+
+Datatype: Integer,int,String
+boolean, Collections,Object    |  int , varchar, date
+
+
+Employee emp = new Employee();  |   values
+
+emp -> reference                 
+hascode 
+
+
+class Address{
+					|	Address Table P.K
+						Employe Table F.K	select * from  employee ;	
+					|
+}
+class Employee extends Address{       |  
+
+
+
+}
+
+
+--------------
+
+class Address{
+					|	Address Table P.K
+						Employe Table F.K	select * from  employee ;	
+					|
+}
+@Entity
+@Table(name="Emp_Table")
+class Employee{			       |     Emp_Table
+@Id						eid(p.k)  emp_name   salary 
+int eid;
+@Column(name="emp_name")
+String ename;
+double salary;						Address
+						aid  city state
+
+Address a1;
+
+}
+
+
+
+
+Hibernate/ORM tools help us to fill the gap between OOPs and RDBMS.
+
+JDBC ---> Hibernate ---> JPA-Java Persistence API  
+
+SpringBoot 
+SpringBoot Data JPA --> JPA
+
+
+
+Spring Data JPA
+Interfaces for Repositories:
+
+1. Repository<Entity,Id>
+2. CrudRepository<Entity,Id>
+3. PagingandSortingRepository<E,ID>
+4. JpaRepository<Entity,Id>
+
+
+Insert and Update
+Entity save(Entity Obj);
+
+Select By Id
+OPtional<Entity> findById(id)
+
+select all 
+
+List<Entity> findAll();
+
+delete by Id
+void	deleteById(id);
+
+
+
