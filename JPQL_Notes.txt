@@ -1,0 +1,20 @@
+
+
+  	SQL 
+Tables  						JPQL
+						Entity/POJO
+select column1,column2 from Table;  |  select e.prop1,e.prop2  from Entity e;
+
+
+select eid,emp_name,salary from Emp_Details; |  select e.eid,e.ename,e.salary 								from Employee e;
+
+select max(salary) from Emp_Details;   | select max(e.salary) from 									Employee e;
+
+
+
+===============================================================================
+
+
+Web Services:
+Online services provided by some vendors , we can access web services through REST API.
+
