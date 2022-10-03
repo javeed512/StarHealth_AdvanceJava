@@ -15,6 +15,10 @@ public interface IEmployeeService {
 	
 	public List<Employee>  selectAllEmployees();
 	
+	public Employee selectByEName(String ename);
 	
+	public List<Employee>  selectBySalaryGT(double salary);
+	
+	public List<Employee>  selectSortedSalary(double salary);
 
 }

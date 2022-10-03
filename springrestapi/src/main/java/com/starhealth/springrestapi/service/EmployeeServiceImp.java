@@ -46,4 +46,22 @@ public class EmployeeServiceImp implements IEmployeeService {
 		return repo.findAll();
 	}
 
+	@Override
+	public Employee selectByEName(String ename) {
+		// TODO Auto-generated method stub
+		return repo.findByEname(ename);
+	}
+
+	@Override
+	public List<Employee> selectBySalaryGT(double salary) {
+		// TODO Auto-generated method stub
+		return repo.findBySalaryGreaterThan(salary);
+	}
+
+	@Override
+	public List<Employee> selectSortedSalary(double salary) {
+		// TODO Auto-generated method stub
+		return repo.findBySortedSalary(salary);
+	}
+
 }
