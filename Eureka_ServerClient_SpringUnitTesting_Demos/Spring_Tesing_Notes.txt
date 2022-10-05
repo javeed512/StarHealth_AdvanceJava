@@ -1,0 +1,80 @@
+application.properties
+-----------------------
+
+
+
+spring.datasource.url= jdbc:mysql://localhost:3306/dept
+
+spring.datasource.username= root
+
+spring.datasource.password= admin
+
+
+
+application.yml
+----------------
+
+spring:
+ datasource:
+  url: jdbc:mysql://localhost:3306/dept
+  username: root
+  password: admin
+
+
+server:
+ port: 8080
+
+
+-----------------------------------------------------------
+
+
+
+Testing:
+
+It is concept where quality of software can be verified. We can find bugs doing testing.
+
+Benefits:
+--------
+-> We can find bugs in early stages.
+-> We can verify software implementation is as per customer requirments .
+-> Software Quality can be checked.
+-> We can ensure security , authorization  and authentication from testing.
+-> Unit Testing help us to test particular unit. Ex: Class , method , module
+
+JUNIT-5 or JUPITER
+-------------------
+In SpringBoot Testing
+
+Every class should have
+@SpringBootTest
+
+Every Test method should have
+@Test 
+
+In JUnit will have N-number of assertXXX() will help us to test the methods for diff scenarios.
+
+  actual = addUser();
+
+assertEquals(expected,actual);
+
+
+
+
+
+
+
+vscode editor
+
+nodejs
+
+node --version
+
+
+
+
+
+
+
+
+
+  
