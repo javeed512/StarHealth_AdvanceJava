@@ -1,0 +1,32 @@
+
+UI Framework
+
+Ex: Angular , ReactJS , Vue.js ...
+
+HTML-5
+CSS ---> BootStrap
+JavaScript ---> TypeScript
+
+
+Angular --> TypeScript <-- JS
+
+ReactJS
+
+
+CSS-Cascading Style Sheets
+
+1. Inline css --> style attribute
+
+2. Embedded Css --> write css inside html file
+
+3. External css--> write seperate external css file and import in html page
+
+
+
+CSS Selector:
+==============
+
+tag name
+id #
+classname .
+

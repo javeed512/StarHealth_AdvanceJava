@@ -1,0 +1,50 @@
+Exception Handling in Spring Boot
+
+1. We can handle exceptions using try-catch
+2. we can handle exceptions using @ExceptionHanlder annotation
+
+In Spring Boot Apps , we can handle exceptions at 
+i. Controller level OR
+Create method inside controller class  for example
+
+	@ExceptionHandler(value = NullPointerException.class)
+	@ResponseStatus(reason = "Null value found , exception occur")
+	public void  exceptionHandler() {
+		
+	
+	}
+
+
+
+ii. Application Level/Global Exception Hanlding
+
+Create a seperate class with @RestControllerAdvice annotation
+
+Create method inside controller  Advice class  for example
+
+	@ExceptionHandler(value = NullPointerException.class)
+	@ResponseStatus(reason = "Null value found , exception occur")
+	public void  exceptionHandler() {
+		
+	
+	}
+
+
+
+
+
+=============================================
+
+Swagger Tools
+
+UI for access REST-API with in Java.
+
+http://localhost:8080/swagger-ui.html
+
+
+
+
+
+
+
+
