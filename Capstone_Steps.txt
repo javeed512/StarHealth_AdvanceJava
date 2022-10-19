@@ -1,0 +1,90 @@
+User/Admin Registration
+------------------------
+
+Post user details
+Get user detail by username,role
+
+User
+userId
+userName
+password
+role
+email
+mno
+address
+
+
+
+If Login as Admin:
+Product Crud
+------------
+1. Add New Product
+2. Updat Product
+3. delete product
+4. Display All Product
+
+Product
+---------
+productId
+productName
+productPrice
+quantity
+image = "mobile.png"
+
+
+
+
+
+----------------------
+
+If login as customer/user
+
+1. See all products
+2. Add product to the cart
+
+
+Header and Footer
+
+
+
+
+
+
+
+
+
+
+1.Databases:
+Create  databases
+
+2. create all packages
+com.starhealth.eshop.*;
+
+3. Entity classes
+Lombok  or setter,getter
+
+4. Repositories
+
+5. Service Interfaces
+	Service Implementatin classes
+
+6. RestContoller
+	with @RestController and Mappings
+
+use postman / swagger to do testing
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
